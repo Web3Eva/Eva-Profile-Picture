@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   const welcomeP = document.getElementById("welcomeP");
 
   welcomeH1.innerText = welcome_h1;
-  welcomeH2.innerText = welcome_h2;
+  welcomeH2.innerText = welcome_h2; 
   welcomeP.innerHTML = welcome_p;
 
   if (window.ethereum) {
