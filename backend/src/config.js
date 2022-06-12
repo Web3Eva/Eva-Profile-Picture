@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Eva Profile Pictures";
 const description = "This profile picture is one of only five thousand of the first-ever Eva Profile Picture launch events! This NFT can be used for the blockchain and Web3 based social media platform called Eva. The NFT depicts a cat floating around in space. ";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://bafybeia6wy3qgf7lozfcjn2ng26d2ds4xffs5bjc4uaudud7cthk4xvt5u/"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -66,7 +66,7 @@ const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0x0B2C5D48ddb62E25187ad6dA63862B4Aa92203F8"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x0B2C5D48ddb62E25187ad6dA63862B4Aa92203F8"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "0x9671d4262bEe09bBec6071898aac2ae43484C40A"; // If you want to manually include it
